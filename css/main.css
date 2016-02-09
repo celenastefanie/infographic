@@ -30,6 +30,7 @@ body {
 
 .box-3 {
   background-color: #acac68;
+	position: relative;
 }
 
 .box-4 {
@@ -81,7 +82,7 @@ body {
 }
 
 p {
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Pompiere', cursive;
 }
 
 .needs, .needs-p, .equal-sign {
@@ -90,4 +91,22 @@ p {
 
 .needs-box {
 	width: 90%;
+}
+
+.bone-1 {
+	position: absolute;
+	width: 3%;
+	top: 35%;
+	left: 20px;
+	transform: rotate(-20deg);
+	transform-origin: center;
+}
+
+.bone-2 {
+	position: absolute;
+	width: 3.2%;
+	top: 45%;
+	right: 20%;
+	transform: rotate(45deg);
+	transform-origin: center;
 }
