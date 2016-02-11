@@ -110,3 +110,15 @@ p {
 	transform: rotate(45deg);
 	transform-origin: center;
 }
+
+@media only screen and (min-width:26em) {
+
+	.bone-2 {
+		position: absolute;
+		width: 2.6%;
+		top: 40%;
+		right: 20%;
+		transform: rotate(45deg);
+		transform-origin: center;
+	}
+}
