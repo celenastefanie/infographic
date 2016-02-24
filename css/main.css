@@ -72,10 +72,14 @@ body {
 }
 
 .calcium-p, .box-3-h2 {
-		color: #fff;
+	color: #fff;
 }
 
-.box-2-h2, .box-3-h2 {
+.box-4-h2, .footprint-p {
+	color: #dbe9a8;
+}
+
+.box-2-h2, .box-3-h2, .box-4-h2 {
 	font-family: 'Montez', cursive;
 	text-align: center;
 	font-weight: normal;
@@ -111,6 +115,34 @@ p {
 	transform-origin: center;
 }
 
+.foot-1 {
+	width: 50%;
+}
+
+.foot-2 {
+	width: 40%;
+}
+
+.foot-3 {
+	width: 30%;
+}
+
+.foot-4 {
+	width: 24%;
+}
+
+.foot-5 {
+	width: 20%;
+}
+
+.foot-6 {
+	width: 14%;
+}
+
+.foot-cap {
+	text-align: center;
+	color: #dbe9a8;
+}
 @media only screen and (min-width:26em) {
 
 	.bone-2 {
