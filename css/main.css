@@ -95,6 +95,7 @@ p {
 
 .needs-box {
 	width: 90%;
+	padding-left: 5%;
 }
 
 .bone-1 {
@@ -116,33 +117,44 @@ p {
 }
 
 .foot-1 {
-	width: 50%;
+	width: 70%;
 }
 
 .foot-2 {
-	width: 40%;
+	width: 60%;
+	padding-top: 12%;
 }
 
 .foot-3 {
-	width: 30%;
+	width: 50%;
+	padding-top: 24%;
 }
 
 .foot-4 {
-	width: 24%;
+	width: 40%;
 }
 
 .foot-5 {
-	width: 20%;
+	width: 30%;
+	padding-top: 12%;
 }
 
 .foot-6 {
-	width: 14%;
+	width: 20%;
+	padding-top: 24%;
 }
 
 .foot-cap {
 	text-align: center;
 	color: #dbe9a8;
+	margin-right: 0;
 }
+
+.feet {
+	width: 30%;
+	text-align: center;
+}
+
 @media only screen and (min-width:26em) {
 
 	.bone-2 {
@@ -154,3 +166,48 @@ p {
 		transform-origin: center;
 	}
 }
+
+@media only screen and (min-width:38em) {
+	.feet {
+		width: 16%;
+		text-align: center;
+	}
+
+	.foot-1 {
+		width: 70%;
+	}
+
+	.foot-2 {
+		width: 60%;
+		padding-top: 15%;
+	}
+
+	.foot-3 {
+		width: 50%;
+		padding-top: 30%;
+	}
+
+	.foot-4 {
+		width: 40%;
+		padding-top: 60%;
+	}
+
+	.foot-5 {
+		width: 30%;
+		padding-top: 75%;
+	}
+
+	.foot-6 {
+		width: 20%;
+		padding-top: 86%;
+	}
+
+	.bone-2, .bone-1 {
+		display: none;
+	}
+
+	.needs-box {
+		width: 200%;
+		padding-left: -13%;
+
+	}
